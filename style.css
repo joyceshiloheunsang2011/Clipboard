@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    font-family: 'Bai Jamjuree',sans-serif;
+}
+p{
+    color: grey;
+}
+/* section1 */
+.img-part{
+   width: 10%;
+   margin: 100px auto;
+}
+.text-part{
+    text-align: center;
+    width: 50%;
+    margin: 80px auto;
+    /* margin: 80px 350px 20px; */
+}
+.text-part p{
+    font-size: 16px;
+}
+.button-part{
+    width: 40%;
+    margin: auto;
+}
+.button1{
+    border-radius: 100px;
+    padding: 15px;
+    border: none;
+    width: 200px;
+    background-color: hsl(171, 66%, 44%);
+    color: white;
+}
+.button2{
+    border-radius: 100px;
+    padding: 15px;
+    border: none;
+    width: 200px;
+    background-color: rgb(174, 95, 238);
+    color: white;
+}
+.track{
+    text-align: center;
+    width: 50%;
+    margin: 120px auto;}
+.track p{
+    font-size: 16px;
+}
+.image-part{
+    display: flex;
+}
+.text-area{
+    margin-top: 80px;
+}
+.quick-search,.icloud,.history{
+    width: 50%;
+    margin: 50px auto;
+}
+/* section3 */
+.clipboard{
+    text-align: center;
+    margin-top: 150px;
+}
+.clipboard h2{
+    margin-bottom: 20px;
+}
+.clipboard p{
+    margin: 0 26% 100px;
+}
+.image-arena{
+    width: 80%;
+    margin: auto;
+}
+/* section4 */
+.supercharge{
+    text-align: center;
+}
+.supercharge h1{
+    margin-bottom: 20px;
+}
+.images img{
+    margin-bottom: 30px;
+}
+.text{
+    margin-right: 30px;
+}
+.text h3, .preview h3, .blackists h3{
+    margin-bottom: 10px;
+}
+.images{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.plenty-images img{
+    margin: 150px 50px;
+}
+/* section5*/
+.button-part2{
+    text-align: center;
+    margin-top: 100px;
+}
+.button-part2 h1{
+    margin-bottom: 20px;
+}
+.button-part2 p{
+    margin: 0 23% 50px 28%;
+}
+/* footerpart */
+.footer-part{
+    background-color: rgb(244, 244, 244);
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+    height: 200px;
+}
+.footer-part a{
+    color: grey;
+    text-decoration: none;
+    padding: 10px 100px 0 100px;
+}
+.footer-part a:hover{
+    color: hsl(171, 66%, 44%);
+}
+@media (max-width:500px) {
+    .img-part{
+        width: 20%;
+        margin: 100px auto 0;
+    }
+    .button-part{
+        flex-direction: column;
+    }
+    .track p{
+        text-align: center;
+        font-size: 15px;
+        line-height: 1.4;
+    }
+    .quick-search,.icloud,.history{
+        text-align: center;
+        width: 80%;
+    }
+    .button1{
+        margin-bottom: 30px;
+    }
+    .image-part{
+        flex-direction: column;
+    }
+    .image-part img{
+        width: 100%;
+    }
+    .image-part{
+        width: 80%;
+        margin: auto;
+    }
+    .clipboard p{
+        width: 80%;
+        margin: 0 auto 100px;
+    }
+    .clipboard img{
+        width: 100%;
+        margin-top: 10px;
+    }
+    .supercharge{
+        padding: 50px;
+    }
+    .supercharge p{
+        padding: 0 50px 50px;
+    }
+    .text, .blackists, .preview{
+        width: 100%;
+    }
+    .button-part2 p{
+        width: 90%;
+        margin: 30px auto;
+    }
+    .images{
+        flex-direction: column;
+    }
+    .plenty-images img{
+        flex-direction: column;
+        margin: 50px;
+    }
+    .button-part2{
+        padding: 0 60px;
+    }
+    .footer-part a{
+        flex-direction: column;
+    }
+    .footer-part{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgb(244, 244, 244);
+        height: 60vh;
+        text-align: center;
+    }
+    .image{
+        display: flex;
+        flex-direction: column;
+    }
+    .logo img{
+        width: 50px;
+        margin: 30px auto;
+    }
+    .icon-part img{
+        margin: 20px 10px;
+    }
+}
